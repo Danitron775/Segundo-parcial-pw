@@ -9,7 +9,7 @@
 	</div>
 
 	<div class="container">
-		<c:if test="${usuario.roles[0].rol_nombre == 'ROLE_ADMIN'}">
+		<c:if test="${usuario.roles[0].rol_nombre == 'ROLE_RECTOR'}">
 			<div>
 				<a type="button" class="btn btn-primary btn-md" href="/api/clases/nueva">Adicionar clase</a>
 			</div>
